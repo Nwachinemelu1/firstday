@@ -1,0 +1,56 @@
+
+body {background-color: powderblue;
+background-image: url('../images/workplace.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+h1 {color: blue;}
+p  {color:red; 
+    background-image: url('../images/workplace.jpg'); 
+}
+
+a:link {
+    color: green;
+    background-color:transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color:transparent;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red;
+    background-color:transparent;
+    text-decoration: underlind;
+}
+
+a:active {
+    color: yellow;
+    background-color:transparent;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+} 
+a.highlight:hover, :active {
+    font-size: 30px;
+}
+div:hover p {
+    display: block;
+}
+    
